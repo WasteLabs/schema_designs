@@ -1,0 +1,199 @@
+schema_type: dataframe
+version: 0.8.1
+columns:
+  VEHICLE_REGISTRATION:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LEFT (CT .VEHICLE_REGISTRATION,6):
+    dtype: str
+    nullable: false
+    checks:
+      str_length:
+        min_value: 6
+        max_value: 8
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  NODE_ID:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LATITUDE:
+    dtype: float64
+    nullable: false
+    checks:
+      greater_than: -44.18
+      less_than: -10.13
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LONGITUDE:
+    dtype: float64
+    nullable: false
+    checks:
+      greater_than: 112.66
+      less_than: 155.58
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  SINGLE_STATUS:
+    dtype: int64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  IGNITION:
+    dtype: bool
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  VEHICLE_HEADING:
+    dtype: int64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  STATUS_TEXT:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LOCATION:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LOCATION_DIRECTION:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LOCATION_STRING:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  AREA:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  TAG:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  DRIVER_NAME:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  EVENT_TIME_UTC:
+    dtype: datetime64[ns]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  SPEED:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  ODO:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  VEHICLE_MAX_SPEED:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  STREET_MAX_SPEED:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  LOCATION_DISTANCE:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  EVENT_TIME:
+    dtype: datetime64[ns]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  EXTRACT_DATE:
+    dtype: datetime64[ns]
+    nullable: false
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+checks: null
+index: null
+coerce: false
+strict: false
+unique: null
