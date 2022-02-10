@@ -5,7 +5,7 @@ columns:
     dtype: str
     nullable: false
     checks: null
-    unique: true
+    unique: false
     coerce: true
     required: true
     regex: false
@@ -13,7 +13,7 @@ columns:
     dtype: str
     nullable: false
     checks: null
-    unique: true
+    unique: false
     coerce: true
     required: true
     regex: false
@@ -29,7 +29,7 @@ columns:
     dtype: str
     nullable: false
     checks: null
-    unique: true
+    unique: false
     coerce: true
     required: true
     regex: false
@@ -37,7 +37,7 @@ columns:
     dtype: str
     nullable: false
     checks: null
-    unique: true
+    unique: false
     coerce: true
     required: true
     regex: false
