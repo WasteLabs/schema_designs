@@ -1,0 +1,128 @@
+schema_type: dataframe
+version: 0.8.1
+columns:
+  issue_id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stop_type:
+    dtype: category
+    nullable: false
+    checks:
+      isin:
+      - pickup
+    unique: false
+    coerce: false
+    required: true
+  customer_name:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  address:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  postcode:
+    dtype: string
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  field_area:
+    dtype: string
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  city:
+    dtype: str
+    nullable: false
+    checks:
+      isin:
+      - Hong Kong
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  country:
+    dtype: str
+    nullable: false
+    checks:
+      isin:
+      - China
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  preferred_collection_date:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  is_morning:
+    dtype: bool
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  description:
+    dtype: category
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  quantity:
+    dtype: int
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  item_id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: true
+    coerce: false
+    required: true
+    regex: false
+  time_window_start:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  time_window_end:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
