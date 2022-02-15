@@ -42,14 +42,6 @@ columns:
     coerce: true
     required: true
     regex: false
-  field_area:
-    dtype: string
-    nullable: true
-    checks: null
-    unique: false
-    coerce: true
-    required: true
-    regex: false
   city:
     dtype: str
     nullable: false
