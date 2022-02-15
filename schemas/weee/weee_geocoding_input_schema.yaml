@@ -1,0 +1,19 @@
+schema_type: dataframe
+version: 0.8.1
+columns:
+  issue_id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  address:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
