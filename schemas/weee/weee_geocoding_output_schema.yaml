@@ -1,0 +1,51 @@
+schema_type: dataframe
+version: 0.8.1
+columns:
+  issue_id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  address:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  latitude:
+    dtype: float
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  longitude:
+    dtype: float
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  formatted_address:
+    dtype: string
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  match_found:
+    dtype: bool
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
