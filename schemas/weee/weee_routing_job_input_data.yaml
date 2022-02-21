@@ -1,0 +1,114 @@
+schema_type: dataframe
+version: 0.8.1
+columns:
+  _id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: true
+    coerce: false
+    required: true
+    regex: false
+  quantities:
+    dtype: int
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops._id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: true
+    coerce: false
+    required: true
+    regex: false
+  stops.type:
+    dtype: str
+    nullable: false
+    checks:
+      isin:
+      - PICKUP
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.durationMillis:
+    dtype: int
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.costFixed:
+    dtype: int
+    nullable: false
+    checks:
+      isin:
+      - 0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.openTime:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.lateTime:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.closeTime:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.replenishUsage.replenishTypeId:
+    dtype: str
+    nullable: false
+    checks:
+      isin:
+      - available-pallet-space
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.replenishUsage.valueUsed:
+    dtype: int
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.coordinate.latitude:
+    dtype: float
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  stops.coordinate.longitude:
+    dtype: float
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
