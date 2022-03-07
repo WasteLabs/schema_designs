@@ -35,7 +35,7 @@ columns:
     regex: false
   Custom field (Rank):
     dtype: str
-    nullable: false
+    nullable: true
     checks: null
     unique: false
     coerce: true
@@ -51,7 +51,7 @@ columns:
     regex: false
   Custom field (Area):
     dtype: str
-    nullable: false
+    nullable: true
     checks: null
     unique: false
     coerce: true
@@ -59,7 +59,7 @@ columns:
     regex: false
   Custom field (District):
     dtype: str
-    nullable: false
+    nullable: true
     checks: null
     unique: false
     coerce: true
@@ -67,7 +67,7 @@ columns:
     regex: false
   Custom field (Region):
     dtype: str
-    nullable: false
+    nullable: true
     checks: null
     unique: false
     coerce: true
@@ -96,7 +96,7 @@ columns:
     regex: false
   "Custom field (First Name)":
     dtype: str
-    nullable: false
+    nullable: true
     checks: null
     unique: false
     coerce: true
