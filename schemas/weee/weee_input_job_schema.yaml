@@ -88,6 +88,8 @@ columns:
       isin:
       - Before 1pm
       - After 1pm
+      - Before 2pm
+      - After 2pm
     unique: false
     coerce: true
     required: true
