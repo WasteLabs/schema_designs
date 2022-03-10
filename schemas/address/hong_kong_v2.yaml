@@ -1,0 +1,1512 @@
+schema_type: dataframe
+version: 0.8.1
+columns:
+  Summary:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Issue key:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Issue id:
+    dtype: str
+    nullable: false
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
+  Issue Type:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Status:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Project key:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Project name:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Project type:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Project lead:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Project description:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Project url:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Priority:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Resolution:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Assignee:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Reporter:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Creator:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Created:
+    dtype: datetime64[ns, Asia/Hong_Kong]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Updated:
+    dtype: datetime64[ns, Asia/Hong_Kong]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Last Viewed:
+    dtype: datetime64[ns, Asia/Hong_Kong]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Resolved:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Due Date:
+    dtype: datetime64[ns, Asia/Hong_Kong]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Description:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Environment:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Original Estimate:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Remaining Estimate:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Time Spent:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Work Ratio:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  "\u03A3 Original Estimate":
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  "\u03A3 Remaining Estimate":
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  "\u03A3 Time Spent":
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Security Level:
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Account Number):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Account Type):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Address 1):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Address 2):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Address Book):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Air Conditioners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Air Coolers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Air Purifiers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Approval Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Approval Status):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Area):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (BR Certificate Number):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (BR Certificate Validity):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (BR Expired):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Block):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CD Players):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (COVID19 Clarification):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Air Conditioners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - CRT TVs):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Computers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - LCD TVs):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Monitors):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Printers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Refrigerators):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Scanners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (CRN price - Washing Machines):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Cancel Reason by Customer):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Cancel Reason by Internal):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Car Park Space Available):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Case Number):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Cassette Players):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Category):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Channel):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Collected Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Collected Date Time):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Collection Category):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Company Name):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Complaint Category):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Completed Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Completed Date Time):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Computers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Confirmed Date Time):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Contract Expired):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Contract Expiry Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Contract ID):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Created Date):
+    dtype: datetime64[ns, Asia/Hong_Kong]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Created Time):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Confirmation Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Confirmation Time):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Email):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer First Name):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer ID):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Phone (Primary)):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Phone (Secondary)):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Surname):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Customer Type):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Air Conditioners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - CRT TVs):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Computers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - LCD TVs):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Monitors):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Printers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Refrigerators):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Scanners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DDN price - Washing Machines):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (DVD Players):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Date Time to be Confirmed):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Dehumidifiers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Delivered Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Delivered Date Time):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Desk Lamps):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Difficult Access):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (District):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Driver ID):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Driver Name):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Duplicated from):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (E&C Serial Number):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Electric Hot Pots):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Electric Kettles):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Elevator Available):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Email):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Email Address of Account):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Enquiry Category):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Epic Colour):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Epic Link):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Epic Name):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Epic Status):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Expiry Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Fans):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Fax Machines):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (First Name):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Floor):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Hair Dryers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Heaters):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Induction Cookers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Input Manually By User):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Irons):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Juicers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Master Account):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Message):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Microwaves):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Mixers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Mobile Phones):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Monitors):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Need Follow):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (No Room / Floor Info):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Order Channel):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Other Customer Type):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Other Source Category):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Other Where did you hear from us):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Others):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Others Dsc. Txt.):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Others Non-WEEE Remarks):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Ovens):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Parent Company BR Number):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Pending Day):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Phone (Primary)):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Phone (Secondary)):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Phone of Account):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Preferred Collection Date):
+    dtype: datetime64[ns, Asia/Hong_Kong]
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Preferred Collection Time):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Previous Reschedule Reason):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Printers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Rank):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Received By):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Received Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Refrigerators):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Region):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Reject Reason):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Related Tx):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Remarks):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Requested Date Time):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Reschedule Reason):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Reschedule To):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Rescheduled From):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Rice Cookers):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Room):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Sales Order Number (Retail Only)):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Scanners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Scheduled Date):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Scheduled Date Time):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Search Account Number):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Source Category):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Story Points):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Surname):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (TVs with screen not less than 30' - CRT):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (TVs with screen not less than 30' - LCD):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (TVs with screen up to 30' - CRT):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (TVs with screen up to 30' - LCD):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Telephones):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Title):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Toasters):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Type):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Vacuum Cleaners):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Washing Machines):
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+  Custom field (Where did you hear from us?):
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: false
+    regex: false
+checks: null
+index: null
+coerce: false
+strict: false
+unique: null
