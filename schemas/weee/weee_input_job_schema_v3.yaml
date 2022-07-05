@@ -414,3 +414,11 @@ columns:
     coerce: true
     required: true
     regex: false
+  remark:
+    dtype: str
+    nullable: true
+    checks: null
+    unique: false
+    coerce: true
+    required: true
+    regex: false
