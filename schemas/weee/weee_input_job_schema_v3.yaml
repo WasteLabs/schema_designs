@@ -398,7 +398,7 @@ columns:
     coerce: true
     required: true
     regex: false
-  contact number:
+  contact_number:
     dtype: str
     nullable: false
     checks: null
@@ -406,7 +406,7 @@ columns:
     coerce: true
     required: true
     regex: false
-  recycle appliances and quantities:
+  recycle_appliances_and_quantities:
     dtype: str
     nullable: false
     checks: null
